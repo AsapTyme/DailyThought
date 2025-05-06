@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Minimalist Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body class="landing-page">
+  <div class="blog">
+    <div class="blog-part is-menu">
+      <a href="https://asaptyme.github.io/portfolio/" class="blog-menu">
+        Work
+        <svg fill="none" stroke="currentColor" stroke-width=".7" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right" viewBox="0 0 24 24">
+          <path d="M7 17L17 7M7 7h10v10" />
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/justin-peretz-a643aa175/" class="blog-menu">Contact</a>
+      <a href="#" class="blog-menu mention">@AsapTyme</a>
+      <a href="#" class="blog-menu subscribe">Subscribe</a>
+
+      <!-- Dark mode toggle -->
+      <div class="dark-mode-toggle">
+        <input type="checkbox" id="mode" />
+        <label for="mode">Dark Mode</label>
+      </div>
+    </div>
+    
+    <div class="blog-header blog-is-sticky">
+      <div class="blog-article header-article">
+        <div class="blog-big__title">Daily</div>
+        <div class="blog-menu rounded small-title">Pinned Issue</div>
+      </div>
+      <div class="blog-article page-number">
+        NO. 01
+      </div>
+    </div>
+    
+    <div class="blog-header-container">
+      <div class="blog-header">
+        <div class="blog-article header-article">
+          <div class="blog-big__title">Thought</div>
+          <div class="blog-menu small-title date">06.05.2025</div>
+        </div>
+        <div class="blog-article">
+          <img src="/assets/carbon.jpg" alt="cosmic image">
+          <h2>The Carbon in our <span>Apple Pies</span></h2>
+          <div class="blog-detail">
+            <span>By Jane Doe</span>
+            <span>5 Min Read</span>
+          </div>
+          <p>Galaxies ship of the imagination across the centuries at the edge of forever take root and flourish billions upon billions.</p>
+          <a href="article.html?id=1" class="article-link text-effect">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+              <path d="M15 10l5 5-5 5" />
+              <path d="M4 4v7a4 4 0 004 4h12" />
+            </svg>
+            Read Article
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+                <path d="M15 10l5 5-5 5" />
+                <path d="M4 4v7a4 4 0 004 4h12" />
+              </svg>
+              Read Article
+            </span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="blog-header">
+        <div class="blog-article header-article">
+          <div class="blog-big__title">Health</div>
+          <div class="blog-menu small-title date">01.05.2025</div>
+        </div>
+        <div class="blog-article">
+          <img src="/assets/mindseye.jpg" alt="mind image">
+          <h2>Lullaby of the <span> Mind's Eye</span></h2>
+          <div class="blog-detail">
+            <span>By John Smith</span>
+            <span>4 Min Read</span>
+          </div>
+          <p>Extraordinary claims require extraordinary evidence a mote of dust suspended in a sunbeam globular star cluster across the centuries.</p>
+          <a href="article.html?id=2" class="article-link text-effect">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+              <path d="M15 10l5 5-5 5" />
+              <path d="M4 4v7a4 4 0 004 4h12" />
+            </svg>
+            Read Article
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+                <path d="M15 10l5 5-5 5" />
+                <path d="M4 4v7a4 4 0 004 4h12" />
+              </svg>
+              Read Article
+            </span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="blog-header">
+        <div class="blog-article header-article">
+          <div class="blog-big__title">Money</div>
+          <div class="blog-menu small-title date">28.04.2025</div>
+        </div>
+        <div class="blog-article">
+          <img src="/assets/money.jpg" alt="stars image">
+          <h2>Billions Upon <span>Billions</span></h2>
+          <div class="blog-detail">
+            <span>By Emily Chen</span>
+            <span>6 Min Read</span>
+          </div>
+          <p>Star stuff harvesting star light the ash of stellar alchemy encyclopaedia galactica bits of moving fluff the only home we've ever known.</p>
+          <a href="article.html?id=3" class="article-link text-effect">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+              <path d="M15 10l5 5-5 5" />
+              <path d="M4 4v7a4 4 0 004 4h12" />
+            </svg>
+            Read Article
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-right" viewBox="0 0 24 24">
+                <path d="M15 10l5 5-5 5" />
+                <path d="M4 4v7a4 4 0 004 4h12" />
+              </svg>
+              Read Article
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="blog-part right-blog">
+      <marquee width="100%" direction="left">
+        <span>New Articles Every Week</span>
+        <span>Featured Essays on Cosmos and Consciousness</span>
+        <span>Subscribe to Our Newsletter</span>
+      </marquee>
+      <div class="blog-right-title-container">
+        <div class="blog-right-title">
+          Featured Articles
+        </div>
+        <div class="blog-menu rounded">See All</div>
+      </div>
+      <div class="blog-right">
+        <div class="blog-right-container">
+          <div class="blog-title-date">
+            <div class="blog-right-page">1</div>
+            <div class="date">06.05.2025</div>
+          </div>
+          <div class="blog-right-page-title">The Carbon in our Apple Pies</div>
+          <div class="blog-right-page-subtitle">Galaxies ship of the imagination across the centuries at the edge of forever take root and flourish billions upon billions.</div>
+        </div>
+        <div class="blog-right-container">
+          <div class="blog-title-date">
+            <div class="blog-right-page">2</div>
+            <div class="date">01.05.2025</div>
+          </div>
+          <div class="blog-right-page-title">Lullaby of the Mind's Eye</div>
+          <div class="blog-right-page-subtitle">Extraordinary claims require extraordinary evidence a mote of dust suspended in a sunbeam globular star cluster across the centuries.</div>
+        </div>
+        <div class="blog-right-container">
+          <div class="blog-title-date">
+            <div class="blog-right-page">3</div>
+            <div class="date">28.04.2025</div>
+          </div>
+          <div class="blog-right-page-title">Shores of the Cosmic Ocean</div>
+          <div class="blog-right-page-subtitle">Star stuff harvesting star light the ash of stellar alchemy encyclopaedia galactica bits of moving fluff.</div>
+        </div>
+        <div class="blog-right-container">
+          <div class="blog-title-date">
+            <div class="blog-right-page">4</div>
+            <div class="date">21.04.2025</div>
+          </div>
+          <div class="blog-right-page-title">Billions Upon Billions</div>
+          <div class="blog-right-page-subtitle">The interior concept was conceived of by cosmic architects who cleverly emulated the essence of space.</div>
+        </div>
+        <div class="blog-right-container">
+          <div class="blog-title-date">
+            <div class="blog-right-page">5</div>
+            <div class="date">14.04.2025</div>
+          </div>
+          <div class="blog-right-page-title">Extraordinary Claims</div>
+          <div class="blog-right-page-subtitle">The sky calls to us, a very small stage in a vast cosmic arena preserve and cherish that pale blue dot.</div>
+        </div>
+        <div class="circle">
+          <div class="circle-title">Explore the Cosmos</div>
+          <div class="circle-subtitle">We are a way for the cosmos to know itself. Don't try to be like someone else, be yourself.</div>
+          <div class="circle-footer">Discover</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
