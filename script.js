@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
         title: "The Carbon in our Apple Pies",
         subtitle: "The Only Home We've Ever Known",
         author: "Jane Doe",
-        authorImage: "/assets/author3.jpg",
+        authorImage: "./assets/author3.jpg",
         content: `
         <p>Galaxies ship of the imagination across the centuries at the edge of forever take root and flourish billions upon billions. Stirred by starlight how far away not a sunrise but a galaxyrise Sea of Tranquility concept of the number one dispassionate extraterrestrial observer. The carbon in our apple pies emerged into consciousness Sea of Tranquility something incredible is waiting to be known made in the interiors of collapsing stars inconspicuous motes of rock and gas.</p>
       
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
         title: "Lullaby of the Mind's Eye",
         subtitle: "Exploring the Cosmic Consciousness",
         author: "John Smith",
-        authorImage: "/assets/author2.jpg",
+        authorImage: "./assets/author2.jpg",
         content: `
         <p>The quiet murmur of lymphatic rivers, spiraling like nebulae in silence. Tendons hum with forgotten symphonies. <mark class="text-highlight">Whispers of mitochondria</mark> dance in cellular cathedrals. Breath—a holy thing—folding and unfolding the body like origami shaped by ancient winds. <mark class="text-highlight">Bioluminescent threads of renewal</mark> stretch through veins like light through stained glass, refracted by time, by healing, by stillness not yet born.</p>
 
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function() {
         title: "Billions Upon Billions",
         subtitle: "The Cost of Your Time",
         author: "Emily Chen",
-        authorImage: "/assets/author1.jpg",
+        authorImage: "./assets/author1.jpg",
         content: `
         <p>Value is a mirror, and I held it wrong for years. <mark class="text-highlight">Currency of becoming</mark> spends itself through sacrifice, not salary. The paycheck is not the prize. Worth is not a receipt. The internal economy—grit, patience, self-trust—pays out in weeks that don't taste like survival. <mark class="text-highlight">Grind reborn as intention</mark>. I stopped calling it hustle when I realized I was bleeding for someone else's dream.</p>
 
