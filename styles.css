@@ -133,6 +133,7 @@ body.landing-page.dark-mode {
 
 .blog-menu {
   font-size: 22px;
+  font-family: 'Space Grotesk', sans-serif;
   text-decoration: none;
   color: var(--subtitle-color);
   display: flex;
@@ -436,7 +437,7 @@ marquee span:before {
 
 .blog-right-title {
   font-size: 25px;
-  font-family: "Playfair Display", serif;
+  font-family: "Space Grotesk", sans-serif;
   color: var(--title-color);
   transition: color calc(var(--duration) / 4) var(--ease);
 }
